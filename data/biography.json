@@ -1,38 +1,38 @@
 {
- "id": "alfonso-malave",
- "fullName": "Alfonso Malavé",
- "alsoKnownAs": ["Top Malavé", "Top"],
- "birth": {
- "date": "1932-02-15",
- "place": "Puerto Rico",
- "coordinates": [-66.5901, 18.2208]
- },
- "death": {
- "date": null,
- "place": null
- },
- "service": {
- "branch": "US Marine Corps",
- "highestRank": "First Sergeant",
- "conflicts": ["Korean War", "Vietnam War"],
- "servicePeriods": [
- {
- "from": "1952-06-01",
- "to": "1954-06-01",
- "component": "Active",
- "notes": "Korea era"
- },
- {
- "from": "1960-01-01",
- "to": "1971-09-30",
- "component": "Active",
- "notes": "Vietnam era"
- }
- ]
- },
- "summary": "First Sergeant Alfonso Malavé served in the US Marine Corps during Korea and Vietnam.",
- "portrait": "https://placehold.co/800x600?text=Portrait",
- "sources": [
- { "type": "file", "ref": "dd214-1971", "page": 1, "note": "Discharge summary" }
- ]
+  "id": "alfonso-malave",
+  "fullName": "Alfonso Malavé",
+  "alsoKnownAs": ["Top Malavé", "Top"],
+  "birth": {
+    "date": "1932-02-15",
+    "place": "Puerto Rico",
+    "coordinates": [-66.5901, 18.2208]
+  },
+  "death": {
+    "date": null,
+    "place": null
+  },
+  "service": {
+    "branch": "US Marine Corps",
+    "highestRank": "First Sergeant",
+    "conflicts": ["Korean War", "Vietnam War"],
+    "servicePeriods": [
+      {
+        "from": "1952-06-01",
+        "to": "1954-06-01",
+        "component": "Active",
+        "notes": "Korea era"
+      },
+      {
+        "from": "1960-01-01",
+        "to": "1971-09-30",
+        "component": "Active",
+        "notes": "Vietnam era"
+      }
+    ]
+  },
+  "summary": "Enlisting during the Korean War, Alfonso Malavé built a two-decade Marine Corps career that spanned from the trenches of Korea to the villages of Vietnam. Rising to First Sergeant, he mentored generations of Marines and lived the Corps' values of honor, courage, and commitment.",
+  "portrait": "https://placehold.co/800x600?text=Portrait",
+  "sources": [
+    { "type": "file", "ref": "dd214-1971", "page": 1, "note": "Discharge summary" }
+  ]
 }

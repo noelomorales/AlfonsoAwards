@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 const navItems = [
   { href: '/', label: 'Home' },
@@ -14,8 +15,18 @@ export default function Layout({ children }) {
   const router = useRouter();
   return (
     <>
-      <header>
+      <header className="site-header">
         <h1 className="visually-hidden">Alfonso Malavé</h1>
+        <div className="brand">
+          <Image
+            src="https://upload.wikimedia.org/wikipedia/commons/7/72/Emblem_of_the_United_States_Marine_Corps.svg"
+            alt="US Marine Corps emblem"
+            width={40}
+            height={40}
+            priority
+          />
+          <span className="site-title">First Sergeant Alfonso Malavé</span>
+        </div>
         <nav aria-label="Main">
           <ul>
             {navItems.map(item => (

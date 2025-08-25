@@ -31,6 +31,7 @@ export default function Timeline() {
         </ul>
         <div className="map">
           <TimelineMap events={events} selected={selected} />
+          {selected.description && <p>{selected.description}</p>}
         </div>
       </div>
     </>
