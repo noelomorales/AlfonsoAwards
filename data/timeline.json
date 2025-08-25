@@ -1,34 +1,49 @@
 {
-  "events": [
-    {
-      "id": "birth",
-      "date": "1932-02-15",
-      "endDate": null,
-      "title": "Birth of Alfonso Malavé",
-      "description": "Born in Puerto Rico",
-      "location": {
-        "name": "Puerto Rico",
-        "coordinates": [-66.5901, 18.2208]
-      },
-      "tags": ["life"],
-      "sources": [
-        { "type": "file", "ref": "dd214-1971.pdf", "page": 1, "note": "Birth date" }
-      ]
-    },
-    {
-      "id": "korea-service",
-      "date": "1952-06-01",
-      "endDate": "1954-06-01",
-      "title": "Korean War Service",
-      "description": "Served during the Korean War.",
-      "location": {
-        "name": "Korea",
-        "coordinates": [127.7669, 35.9078]
-      },
-      "tags": ["service", "korea"],
-      "sources": [
-        { "type": "file", "ref": "dd214-1954.pdf", "page": 1, "note": "Service record" }
-      ]
-    }
-  ]
+ "events": [
+ {
+ "id": "birth",
+ "date": "1932-02-15",
+ "endDate": null,
+ "title": "Birth of Alfonso Malavé",
+ "description": "Born in Puerto Rico",
+ "location": {
+ "name": "Puerto Rico",
+ "coordinates": [-66.5901, 18.2208]
+ },
+ "tags": ["life"],
+ "sources": [
+ { "type": "file", "ref": "dd214-1971", "page": 1, "note": "Birth date" }
+ ]
+ },
+ {
+ "id": "korea-service",
+ "date": "1952-06-01",
+ "endDate": "1954-06-01",
+ "title": "Korean War Service",
+ "description": "Served during the Korean War.",
+ "location": {
+ "name": "Korea",
+ "coordinates": [127.7669, 35.9078]
+ },
+ "tags": ["service", "korea"],
+ "sources": [
+ { "type": "file", "ref": "dd214-1954", "page": 1, "note": "Service record" }
+ ]
+ },
+ {
+ "id": "vietnam-service",
+ "date": "1967-05-01",
+ "endDate": "1971-09-30",
+ "title": "Vietnam War Service",
+ "description": "Served in Vietnam including reenlistment in-theater.",
+ "location": {
+ "name": "Vietnam",
+ "coordinates": [106.0, 16.0]
+ },
+ "tags": ["service", "vietnam"],
+ "sources": [
+ { "type": "file", "ref": "dd214-1967", "page": 1, "note": "Vietnam service" }
+ ]
+ }
+ ]
 }

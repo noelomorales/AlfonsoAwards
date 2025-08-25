@@ -1,5 +1,7 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import bio from '../data/biography.json';
+import SourceList from '../components/SourceList';
 
 export default function Biography() {
   const jsonLd = {
@@ -20,10 +22,16 @@ export default function Biography() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </Head>
-      <main>
-        <h1>{bio.fullName}</h1>
-        <p>{bio.summary}</p>
-      </main>
+      <h1>{bio.fullName}</h1>
+      <Image
+        src={bio.portrait}
+        alt={`Portrait of ${bio.fullName}`}
+        width={400}
+        height={300}
+        priority
+      />
+      <p>{bio.summary}</p>
+      <SourceList sources={bio.sources} />
     </>
   );
 }
