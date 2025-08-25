@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "id": "birth",
+      "date": "1932-02-15",
+      "endDate": null,
+      "title": "Birth of Alfonso Malavé",
+      "description": "Born in Puerto Rico",
+      "location": {
+        "name": "Puerto Rico",
+        "coordinates": [-66.5901, 18.2208]
+      },
+      "tags": ["life"],
+      "sources": [
+        { "type": "file", "ref": "dd214-1971", "page": 1, "note": "Birth date" }
+      ]
+    },
+    {
+      "id": "korea-service",
+      "date": "1952-06-01",
+      "endDate": "1954-06-01",
+      "title": "Korean War Service",
+      "description": "Served during the Korean War.",
+      "location": {
+        "name": "Korea",
+        "coordinates": [127.7669, 35.9078]
+      },
+      "tags": ["service", "korea"],
+      "sources": [
+        { "type": "file", "ref": "dd214-1954", "page": 1, "note": "Service record" }
+      ]
+    }
+  ]
+}
