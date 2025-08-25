@@ -1,0 +1,13 @@
+{
+  "awards": [
+    {
+      "slug": "purple-heart",
+      "name": "Purple Heart",
+      "description": "Awarded for wounds received in action.",
+      "conflict": "Vietnam War",
+      "devices": [ { "kind": "gold star", "color": null, "count": 1 } ],
+      "whyHeRates": "Sustained wounds in combat.",
+      "sources": [ { "type": "file", "ref": "dd214-1971", "page": 1, "note": "Award record" } ]
+    }
+  ]
+}
