@@ -1,0 +1,7 @@
+{
+  "documents": [
+    { "id": "dd214-1971", "title": "DD-214 (1971)", "file": "https://example.com/dd214-1971.pdf" },
+    { "id": "dd214-1954", "title": "DD-214 (1954)", "file": "https://example.com/dd214-1954.pdf" },
+    { "id": "family-photo", "title": "Family Photo", "file": "https://example.com/family-photo.jpg" }
+  ]
+}

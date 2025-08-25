@@ -1,0 +1,21 @@
+{
+  "photos": [
+    {
+      "id": "portrait",
+      "file": "https://placehold.co/800x600?text=Portrait",
+      "title": "Portrait",
+      "caption": "First Sergeant Malavé in uniform.",
+      "alt": "Portrait of First Sergeant Alfonso Malavé in Marine uniform",
+      "takenAt": null,
+      "location": {
+        "name": "Unknown",
+        "coordinates": null
+      },
+      "tags": ["portrait", "family"],
+      "credit": "Family collection",
+      "sources": [
+        { "type": "file", "ref": "family-photo", "page": 1, "note": "Provided by family" }
+      ]
+    }
+  ]
+}
