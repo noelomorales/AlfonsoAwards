@@ -29,6 +29,21 @@
       "sources": [
         { "type": "file", "ref": "dd214-1954", "page": 1, "note": "Service record" }
       ]
+    },
+    {
+      "id": "vietnam-service",
+      "date": "1967-05-01",
+      "endDate": "1971-09-30",
+      "title": "Vietnam War Service",
+      "description": "Served in Vietnam including reenlistment in-theater.",
+      "location": {
+        "name": "Vietnam",
+        "coordinates": [106.0, 16.0]
+      },
+      "tags": ["service", "vietnam"],
+      "sources": [
+        { "type": "file", "ref": "dd214-1967", "page": 1, "note": "Vietnam service" }
+      ]
     }
   ]
 }

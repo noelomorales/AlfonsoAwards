@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import bio from '../data/biography.json';
 import SourceList from '../components/SourceList';
 
@@ -22,6 +23,13 @@ export default function Biography() {
         />
       </Head>
       <h1>{bio.fullName}</h1>
+      <Image
+        src={bio.portrait}
+        alt={`Portrait of ${bio.fullName}`}
+        width={400}
+        height={300}
+        priority
+      />
       <p>{bio.summary}</p>
       <SourceList sources={bio.sources} />
     </>

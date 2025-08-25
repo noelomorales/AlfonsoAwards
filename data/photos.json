@@ -11,7 +11,7 @@
         "name": "Unknown",
         "coordinates": null
       },
-      "tags": ["portrait"],
+      "tags": ["portrait", "family"],
       "credit": "Family collection",
       "sources": [
         { "type": "file", "ref": "family-photo", "page": 1, "note": "Provided by family" }

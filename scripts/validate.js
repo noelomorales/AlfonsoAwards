@@ -173,7 +173,18 @@ function validateFile(filePath, schema, name) {
 }
 
 validateFile(path.join(__dirname, '..', 'data', 'biography.json'), biographySchema, 'Biography');
-validateFile(path.join(__dirname, '..', 'data', 'timeline.json'), timelineSchema, 'Timeline');
+const timelinePath = path.join(__dirname, '..', 'data', 'timeline.json');
+validateFile(timelinePath, timelineSchema, 'Timeline');
+const timelineData = JSON.parse(fs.readFileSync(timelinePath, 'utf8'));
+const sortedEvents = [...timelineData.events].sort((a, b) =>
+  a.date.localeCompare(b.date) || a.title.localeCompare(b.title)
+);
+if (JSON.stringify(timelineData.events) !== JSON.stringify(sortedEvents)) {
+  console.error('Timeline events not sorted');
+  process.exitCode = 1;
+} else {
+  console.log('Timeline events sorted');
+}
 validateFile(path.join(__dirname, '..', 'data', 'photos.json'), photosSchema, 'Photos');
 validateFile(path.join(__dirname, '..', 'data', 'awards.json'), awardsSchema, 'Awards');
 validateFile(path.join(__dirname, '..', 'data', 'documents.json'), documentsSchema, 'Documents');

@@ -9,7 +9,13 @@ export default function Photos() {
       <ul>
         {photosData.photos.map(photo => (
           <li key={photo.id}>
-            <Image src={photo.file} alt={photo.alt} width={400} height={300} />
+            <Image
+              src={photo.file}
+              alt={photo.alt}
+              width={400}
+              height={300}
+              loading="lazy"
+            />
             <p>{photo.caption}</p>
             <SourceList sources={photo.sources} />
           </li>

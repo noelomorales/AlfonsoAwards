@@ -18,7 +18,11 @@ export default function Timeline() {
         <ul>
           {events.map(ev => (
             <li key={ev.id}>
-              <button type="button" onClick={() => setSelected(ev)}>
+              <button
+                type="button"
+                onClick={() => setSelected(ev)}
+                aria-pressed={selected.id === ev.id}
+              >
                 <time dateTime={ev.date}>{ev.date}</time> - {ev.title}
               </button>
               <SourceList sources={ev.sources} />
